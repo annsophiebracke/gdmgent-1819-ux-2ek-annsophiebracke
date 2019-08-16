@@ -1,10 +1,17 @@
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
 :root {
   /**
    * Colour palette
    */
-  --c-primary: hsl(190, 100%, 40%);
-
+  --c-primary: #1F3F96;
+  --c-title: #000000;
+  --c-text: #5E6163;
+  --c-footer: #668FD1;
+  --c-link: #33B5ED;
+  --c-buttonactive: #949494;
   /**
    * Layout
    */
@@ -13,14 +20,13 @@
   /**
    * Typography
    */
-  --t-primary: Arial, Helvetica, sans-serif;
-  --t-secondary: Arial, Helvetica, sans-serif;
-  --t-tertiary: monospace;
+  --t-primary: 'Open Sans', Verdana, sans-serif;
+  --t-banners: 'Kaushan Script';
+  --t-gsmprimary: 'Open Sans', Tahoma, Verdana, sans-serif;
+  --t-gsmbanners: 'Kaushan Script';
 
   --t-headline: var(--t-primary);
   --t-subtitle: var(--t-primary);
-  --t-body: var(--t-secondary);
-  --t-code: var(--t-tertiary);
 }
 
 
